@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Mainnet Calc</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.2.7/dist/web3.min.js" integrity="sha256-9rSwSMn4GDjf9FcHmJSvdiKGrk+mNIUmM4ltFDu3MUU=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+    const CalcAddress = "0xE57195d40EB77017f25F3C8dE8f2bA5962AdC60E";
+    //metamask利用許可ダイアログを出す
+    ethereum.enable();
+
+    const ABI = [
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "uint8",
+				"name": "number_arg",
+				"type": "uint8"
+			}
+		],
+		"name": "plus",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getNumber",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
+    
+    </script>
+
 </head>
 <body>
     1～255までの数字を入力
-    
+
 </body>
 </html>
