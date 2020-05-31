@@ -48,7 +48,7 @@ window.onload = async function () {
     //metamaskの準備
     web3js = new Web3(web3.currentProvider);
     //スマートコントラクト読み込み
-    mycontract = new web3js.eth.Contract(ABI, Address);
+    mycontract = new web3js.eth.Contract(ABI, CalcAddress);
   
     //1.2.7と表示されるのが正しい
     console.log("reader.js_is_checking_web3.js_version..." + Web3.version);
