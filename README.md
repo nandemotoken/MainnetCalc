@@ -8,11 +8,11 @@ https://nandemotoken.github.io/MainnetCalc
 これは、シンプルな電卓。  
 Ethereumのガス代の仕組みを学ぶ、学習用教材です。  
 
-## ガス代の記録
+#### ガス代の記録
 - 2020年5月31日 コントラクトのデプロイ 56円 (Gas Price 22Gwei)
 - 2020年5月31日 numberに3を足した 24円 (Gas Price 21.56Gwei)
 
-### あそびかた(初級編)　～スマートコントラクトにデータを送り、お金を減らす～
+### 体験ページ(初級編)　～スマートコントラクトにデータを送り、お金を減らす～
 - GoogleChromeにMetamaskをインストールする。
 - MetaMaskに100円分ぐらいのEthereumを送る。
 - https://nandemotoken.github.io/MainnetCalc にアクセスする。
@@ -23,7 +23,7 @@ Ethereumのガス代の仕組みを学ぶ、学習用教材です。
 - MetaMaskがConfirmedと言ってくる。
 - しばらく待ってから　https://nandemotoken.github.io/MainnetCalc のページを更新する。
 
-### あそびかた(中級編)　～自分で作るスマートコントラクトで、お金を減らす～
+### 体験ページ(中級編)　～自分で作るスマートコントラクトで、お金を減らす～
 - GoogleChromeにMetamaskをインストールする。
 - MetaMaskに200円分ぐらいのEthereumを入れる。
 - https://remix.ethereum.org/ にアクセスする。
@@ -49,7 +49,7 @@ Ethereumのガス代の仕組みを学ぶ、学習用教材です。
 - MetaMaskがConfirmedと言ってくる
 - getNumberを押す。さきほど入れた数字が表示される。
 
-### あそびかた(上級編)
+### 体験ページ(上級編)
 - オンラインハッカソンの開催を検討中…
 - githubのアカウントを登録しておいてください。
 
