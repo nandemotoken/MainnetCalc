@@ -1,5 +1,7 @@
 # メインネット電卓
 使ってみよう！Ethereumのメインネット！ ★お金が減ります  
+
+体験ページ(初級編)  
 https://nandemotoken.github.io/MainnetCalc
 
 ## what is this?
