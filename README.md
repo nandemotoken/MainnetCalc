@@ -27,7 +27,7 @@ Ethereumのガス代の仕組みを学ぶ、学習用教材です。
 - https://remix.ethereum.org/ にアクセスする。
 - create new fileボタンをクリックする。
 - mainnetCalc.solと名前をつける。
-- のファイルをコピー&ペーストする。
+- 次のファイルをコピー&ペーストする。https://raw.githubusercontent.com/nandemotoken/MainnetCalc/gh-pages/mainnetCalc.sol
 - Solidity Compilerのボタンを押す。
 - Compileボタン…青くて大きいやつ　を押す。
 - 緑色のチェックマークが出る。
