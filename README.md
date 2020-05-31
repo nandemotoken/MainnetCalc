@@ -1,5 +1,7 @@
 # MainnetCalc
-Let's pay gas fee!
+Let's pay gas fee!  
+これは、シンプルな電卓。  
+Ethereumのガス代の仕組みを学ぶ、学習用教材です。  
 
 ## ガス代の記録
 - 2020年5月31日 コントラクトのデプロイ 56円 (Gas Price 22Gwei)
