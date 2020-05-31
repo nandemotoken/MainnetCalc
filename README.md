@@ -7,7 +7,7 @@ Let's pay gas fee!
 
 ### あそびかた(初級編)
 - GoogleChromeにMetamaskをインストールする。
-- MetaMaskに100円分ぐらいのEthereumを入れる。
+- MetaMaskに100円分ぐらいのEthereumを送る。
 
 
 
