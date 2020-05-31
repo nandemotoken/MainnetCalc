@@ -4,13 +4,13 @@
 ## what is this?
 これは、シンプルな電卓。  
 Ethereumのガス代の仕組みを学ぶ、学習用教材です。  
-  
-体験ページ(初級編)  
-https://nandemotoken.github.io/MainnetCalc  
 
 ## ガス代の記録
 - 2020年5月31日 コントラクトのデプロイ 56円 (Gas Price 22Gwei)
 - 2020年5月31日 numberに3を足した 24円 (Gas Price 21.56Gwei)
+  
+体験ページ(初級編)  
+https://nandemotoken.github.io/MainnetCalc  
 
 ### 体験ページ(初級編)　～スマートコントラクトにデータを送り、お金を減らす～
 - GoogleChromeにMetamaskをインストールする。
