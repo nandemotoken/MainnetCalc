@@ -1,5 +1,6 @@
-# MainnetCalc
-Let's pay gas fee!  
+# メインネット電卓
+使ってみよう！Ethereumのメインネット！ (お金が減ります)  
+
 
 ## what is this?
 これは、シンプルな電卓。  
