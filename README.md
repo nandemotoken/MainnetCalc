@@ -1,6 +1,6 @@
 # メインネット電卓
 使ってみよう！Ethereumのメインネット！ ★お金が減ります  
-
+https://nandemotoken.github.io/MainnetCalc
 
 ## what is this?
 これは、シンプルな電卓。  
@@ -13,13 +13,13 @@ Ethereumのガス代の仕組みを学ぶ、学習用教材です。
 ### あそびかた(初級編)　～スマートコントラクトにデータを送り、お金を減らす～
 - GoogleChromeにMetamaskをインストールする。
 - MetaMaskに100円分ぐらいのEthereumを送る。
-- にアクセスする。
+- https://nandemotoken.github.io/MainnetCalc にアクセスする。
 - 『1～255までの数字を入力』に、好きな数字を入れる。
 - 『トランザクション送信』ボタンを押す
 - Confirmボタンを押す。★ここでお金が減ります。
 - しばらく待つ　※カップラーメンが出来るぐらいの時間。
 - MetaMaskがConfirmedと言ってくる。
-- しばらく待ってから　のページを更新する。
+- しばらく待ってから　https://nandemotoken.github.io/MainnetCalc のページを更新する。
 
 ### あそびかた(中級編)　～自分で作るスマートコントラクトで、お金を減らす～
 - GoogleChromeにMetamaskをインストールする。
