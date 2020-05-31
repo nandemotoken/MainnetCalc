@@ -64,7 +64,7 @@ window.onload = async function () {
 // 基本的に関数にはasyncをつけましょう。
 async function myButtonClicked() {
     //MetaMask利用者のアドレスを取得します。
-    const myAddress = await web3js.eth.getAccounts()[0];
+    const myAddress = await web3js.eth.getAccounts();
     //送信ボタンを押した時にコントラクトのplus関数を呼び出します。
-    mycontract.methods.plus(document.getElementById('mynum').value).send({ from: myAddress });    
+    mycontract.methods.plus(document.getElementById('mynum').value).send({ from: myAddress[0] });    
 }
