@@ -1,5 +1,7 @@
 # MainnetCalc
 Let's pay gas fee!  
+
+## what is this?
 これは、シンプルな電卓。  
 Ethereumのガス代の仕組みを学ぶ、学習用教材です。  
 
