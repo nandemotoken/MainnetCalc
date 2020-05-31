@@ -5,15 +5,20 @@ Let's pay gas fee!
 - 2020年5月31日 コントラクトのデプロイ 56円 (Gas Price 22Gwei)
 - 2020年5月31日 numberに3を足した 24円 (Gas Price 21.56Gwei)
 
-### あそびかた(初級編)
+### あそびかた(初級編)　～スマートコントラクトにデータを送る～
 - GoogleChromeにMetamaskをインストールする。
 - MetaMaskに100円分ぐらいのEthereumを送る。
+- にアクセスする。
+- 『1～255までの数字を入力』に、好きな数字を入れる。
+- 『トランザクション送信』ボタンを押す
+- Confirmボタンを押す。★ここでお金が減ります。
+- しばらく待つ　※カップラーメンが出来るぐらいの時間。
+- MetaMaskがConfirmedと言ってくる。
+- しばらく待ってから　のページを更新する。
 
-
-
-### あそびかた(中級編)
+### あそびかた(中級編)　～自分で作るスマートコントラクト～
 - GoogleChromeにMetamaskをインストールする。
-- MetaMaskに1000円分ぐらいのEthereumを入れる。
+- MetaMaskに200円分ぐらいのEthereumを入れる。
 - https://remix.ethereum.org/ にアクセスする。
 - create new fileボタンをクリックする。
 - mainnetCalc.solと名前をつける。
