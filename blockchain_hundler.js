@@ -1,3 +1,6 @@
+//web3.jsをこの変数で使っていく。
+let web3js;
+
 //スマートコントラクトのアドレスです。MetaMaskで確認できます。
 const CalcAddress = "0xE57195d40EB77017f25F3C8dE8f2bA5962AdC60E";
 
@@ -37,9 +40,8 @@ const ABI = [
 
 
 //--------------ここからメイン処理---------------
-//------web3.jsの読み込み待ちのため、window.onloadにメイン処理を入れる--------
 
-// ここにasyncと書いておくと、await(処理待ち)ができます。
+//------web3.jsの読み込み待ちのため、window.onloadにメイン処理を入れる--------
 window.onload = async function () {
 
     //metamask利用許可ダイアログを出す
@@ -55,5 +57,14 @@ window.onload = async function () {
   
     //ブロックチェーンから数字を読み込みます。
     let numberFromBlockchain = await mycontract.methods.getNumber().call()
+    //読み込んだ値を反映させます。
     document.getElementById("number").innerHTML = numberFromBlockchain;
   }
+
+// 基本的に関数にはasyncをつけましょう。
+async function myButtonClicked() {
+    //MetaMask利用者のアドレスを取得します。
+    const myAddress = await web3js.eth.getAccounts()[0];
+    //送信ボタンを押した時にコントラクトのplus関数を呼び出します。
+    mycontract.methods.plus(document.getElementById('mynum').value).send({ from: myAddress });    
+}
